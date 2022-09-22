@@ -105,7 +105,13 @@ def kilencedik():
 
     print(sum)
 
+def tizedik():
+    szam=   int (input("Kérek egy egész számot!"))  
+    szum=0
+    for aktSzam in range(szam,2,-2):
+        szum=szum+aktSzam*(aktSzam+1)
         
+    print(szum)
         
         
 
@@ -125,7 +131,7 @@ def main():
     #hatodik()
     #hetedik()
     kilencedik()
-    
+    tizedik()
     
 main()
 
