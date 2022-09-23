@@ -1,0 +1,20 @@
+""", többsoros kommentelés
+#, egysoros kommentelés
+print()   #kiiratás konzolra
+input()   #konzolról adatot bekérni
+#kommunikáció során karakterek vannak továbbítva
+át kell alakítani "int"-re
+string() #szöveg
+float()  #tört szám
+int()    # egész szám
+
+Escape szekvenciák
+\n sortörés
+\t tabulátor
+------
+
+def "függvény neve"():
+	#utasítások
+
+for "ciklusváltozó" in range():  pl(for i in range():)
+	print(ciklusváltozó)
