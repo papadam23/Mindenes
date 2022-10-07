@@ -18,3 +18,5 @@ def "függvény neve"():
 
 for "ciklusváltozó" in range():  pl(for i in range():)
 	print(ciklusváltozó)
+%% # maradékos osztás
+// teljes osztás

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h2 id="kepek">Képek</h2>
+        <img src="Rosa_Red_Chateau01.jpg" alt="Nincs meg a rózsám" title="Nagyon szép rózsa!" style="float: right;"
+            width="200px" height="auto">
+
+    </section>
+    <section>
+        <p style="text-align: right;">Jobbra <b>igazított</b>: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur accusantium iusto cupiditate ducimus magnam. Debitis accusantium ducimus itaque doloribus at
+            tempore eos possimus rem laborum repellendus? Quidem minus libero deserunt.</p>
+        <p style="text-align: center ;">Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Vel
+            neque sit mollitia inventore amet autem unde voluptatem, omnis harum enim eveniet modi nemo voluptatibus cum
+            quia, libero quos commodi quo?</p>
+        <p style="text-align: justify;">Sorkizárt igazítás: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aliquid ut vero facere odio quas rerum illo est ipsam ipsum doloremque. Repellendus saepe cum quam! Dolores
+            dicta consequatur debitis repellat officiis?</p>
+    </section>
+
+    <h1>Címsor</h1>
+    <p class = "zold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint hic repudiandae error aliquam excepturi quia at ducimus dolorem fuga quisquam modi quos eos assumenda, magnam nesciunt, inventore delectus ipsam. Molestiae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, delectus ut. Harum, repellat similique. Rem dicta, harum laudantium cum corporis quae similique, vel nisi ratione vitae, dignissimos inventore possimus aliquid!</p>
+    <h1 class="zold">Címsor</h1>
+    <script>
+        document.getElementById("kepek").style.border = "1px solid red"; 
+
+        document.getElementsByTagName("h2")[0].innerHTML += "szépek!";
+        document.getElementsByTagName("h2")[0].style.backgroundColor = "lightblue";
+        document.getElementsByTagName("p")[2].style.backgroundColor = "lightblue"; 
+
+        document.getElementsByClassName("zold")[0].style.color = "green";
+        document.getElementsByClassName("zold")[1].style.color = "green";
+    </script>
+</body>
+
+</html>
